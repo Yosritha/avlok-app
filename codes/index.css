@@ -74,9 +74,8 @@
     box-shadow: 0 0 12px #00ffff;
   }
   
-  .login-button:hover {
-    background-color: #0ff;
-    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+  .login-button:hover, .signup-button:hover {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
   }
   
   /* Signup Section */
@@ -101,7 +100,6 @@
   }
   
   .signup-button:hover {
-    background-color: #0ff;
-    box-shadow: 0 0 18px #00ffff, 0 0 30px #00ffff;
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
   }
   
